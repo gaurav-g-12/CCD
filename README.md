@@ -1,8 +1,10 @@
 # Self-supervised Character-to-Character Distillation for Text Recognition （ICCV23）
 This repo contains file to train the CCD model on 94 characters. The pretrained and finetuned model weights are provided below. 
+
 Following are the model configaration:
-    1. Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
-    2. Maximum length of the label is 35 
+- Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
+- Maximum length of the label is 35
+- The provided checkpoint are for ViT base and vision_model_STD
 
 
 ## Pipeline 
@@ -27,7 +29,6 @@ pip install tensorboardX==2.2
 
 ## Pretrain
 ```bash
-# We recommend using multiple 3090s for training.
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 train.py --config ./Dino/configs/CCD_pretrain_ViT_xxx.yaml
 ```
 ## Finetune
