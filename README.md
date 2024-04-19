@@ -1,10 +1,8 @@
 # Self-supervised Character-to-Character Distillation for Text Recognition （ICCV23）
-This is the official code of "Self-supervised Character-to-Character Distillation for Text Recognition". 
-For more details, please refer to our [paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Guan_Self-Supervised_Character-to-Character_Distillation_for_Text_Recognition_ICCV_2023_paper.pdf) or [中文解读](https://zhuanlan.zhihu.com/p/644350078) or [poster](https://github.com/TongkunGuan/CCD/blob/main/graph/ICCV23_poster.pdf). If you have any questions please contact me by email (gtk0615@sjtu.edu.cn).
-
-We also released CVPR23 work on scene text recognition:
-- Self-Supervised Implicit Glyph Attention for Text Recognition (SIGA)
-[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Guan_Self-Supervised_Implicit_Glyph_Attention_for_Text_Recognition_CVPR_2023_paper.pdf) and [Code](https://github.com/TongkunGuan/SIGA)
+This repo contains file to train the CCD model on 94 characters. The pretrained and finetuned model weights are provided below. 
+Following are the model configaration:
+    1. Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
+    2. Maximum length of the label is 35 
 
 
 ## Pipeline 
