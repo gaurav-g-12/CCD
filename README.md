@@ -1,5 +1,5 @@
 # Self-supervised Character-to-Character Distillation for Text Recognition （ICCV23）
-This repo contains file to train the CCD model on 94 characters. The pretrained and finetuned model weights are provided below. 
+This repo contains train files of CCD model on 94 characters. The pretrained and finetuned model weights are provided below. 
 
 Following are the model configaration:
 - Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
