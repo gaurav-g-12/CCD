@@ -5,6 +5,7 @@ Following are the model configaration:
 - Trained on ST and MJ with 94 characters containing lower, upper and sepcial characters. 
 - Maximum length of the label is 35
 - The provided checkpoint are for ViT base and vision_model_STD
+- Link : [Pretrained and Finetuned model checkpoint](https://drive.google.com/drive/u/1/folders/1fLmZyoGw9O_dXh0NxwcsaqU1_dvuD-ge)
 
 
 ## Pipeline 
